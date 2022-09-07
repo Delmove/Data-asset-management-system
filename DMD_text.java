@@ -1,5 +1,5 @@
 public class DMD_text {
     public static void main(String[] args) {
-        System.out.printf("提交测试1");
+        System.out.print("提交测试1");
     }
 }
