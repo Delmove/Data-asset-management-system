@@ -6,11 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ext" />
+        <module name="framework" />
+        <module name="system" />
+        <module name="common" />
+        <module name="generator" />
         <module name="admin" />
+        <module name="asset" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="admin" target="1.8" />
+      <module name="asset" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="ext" target="1.8" />
+      <module name="framework" target="1.8" />
+      <module name="generator" target="1.8" />
+      <module name="ruoyi" target="1.8" />
+      <module name="system" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

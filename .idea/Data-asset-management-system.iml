@@ -9,6 +9,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/apache-tomcat-8.5.82/webapps/docs" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="Web3">
@@ -19,6 +20,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/apache-tomcat-8.5.82/webapps/examples" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="Web2">
@@ -29,6 +31,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/apache-tomcat-8.5.82/webapps/docs/appdev/sample/web" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="Web5">
@@ -39,6 +42,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/apache-tomcat-8.5.82/conf" relative="/WEB-INF" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="Web4">
@@ -49,6 +53,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/apache-tomcat-8.5.82/webapps/manager" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="Web6">

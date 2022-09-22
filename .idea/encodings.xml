@@ -3,5 +3,19 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/assets/admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/assets/admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/asset/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/asset/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/ext/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/ext/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/assets/system/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -4,6 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Data-asset-management-system.iml" filepath="$PROJECT_DIR$/.idea/Data-asset-management-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/assets/admin/admin.iml" filepath="$PROJECT_DIR$/assets/admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets/asset/asset.iml" filepath="$PROJECT_DIR$/assets/asset/asset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets/common/common.iml" filepath="$PROJECT_DIR$/assets/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets/ext/ext.iml" filepath="$PROJECT_DIR$/assets/ext/ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets/framework/framework.iml" filepath="$PROJECT_DIR$/assets/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets/generator/generator.iml" filepath="$PROJECT_DIR$/assets/generator/generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets/ruoyi.iml" filepath="$PROJECT_DIR$/assets/ruoyi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assets/system/system.iml" filepath="$PROJECT_DIR$/assets/system/system.iml" />
     </modules>
   </component>
 </project>
