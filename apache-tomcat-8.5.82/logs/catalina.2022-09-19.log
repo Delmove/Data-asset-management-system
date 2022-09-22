@@ -1,0 +1,1073 @@
+19-Sep-2022 15:16:36.856 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+19-Sep-2022 15:16:36.931 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+19-Sep-2022 15:16:36.932 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+19-Sep-2022 15:16:36.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+19-Sep-2022 15:16:36.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+19-Sep-2022 15:16:36.938 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-Sep-2022 15:16:36.939 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\javaide\jdk8\jre
+19-Sep-2022 15:16:36.940 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+19-Sep-2022 15:16:36.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-Sep-2022 15:16:36.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 15:16:36.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 15:16:36.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\conf\logging.properties
+19-Sep-2022 15:16:36.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2022 15:16:36.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Sep-2022 15:16:36.945 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Sep-2022 15:16:36.946 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Sep-2022 15:16:36.947 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 15:16:37.067 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 15:16:37.069 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\temp
+19-Sep-2022 15:16:37.072 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+19-Sep-2022 15:16:37.079 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+19-Sep-2022 15:16:37.082 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+19-Sep-2022 15:16:37.127 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+19-Sep-2022 15:16:49.235 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Sep-2022 15:16:49.262 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 15258 ms
+19-Sep-2022 15:16:49.301 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Sep-2022 15:16:49.302 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+19-Sep-2022 15:16:49.340 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin.war]
+19-Sep-2022 15:19:30.601 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 15:19:30.697 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 15:20:54.857 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+19-Sep-2022 15:25:34.250 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysConfigController': Unsatisfied dependency expressed through field 'configService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5221)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 10 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:415)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+		... 32 more
+	Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+		at com.sun.proxy.$Proxy117.selectList(Unknown Source)
+		at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+		at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+		at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+		at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+		at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+		at com.sun.proxy.$Proxy123.selectConfigList(Unknown Source)
+		at com.ruoyi.system.service.impl.SysConfigServiceImpl.init(SysConfigServiceImpl.java:40)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+		... 44 more
+	Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+		... 59 more
+	Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+		at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+		at org.apache.ibatis.executor.ReuseExecutor.prepareStatement(ReuseExecutor.java:88)
+		at org.apache.ibatis.executor.ReuseExecutor.doQuery(ReuseExecutor.java:59)
+		at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+		at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+		... 65 more
+	Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+		at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:227)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1654)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1718)
+		at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:914)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1382)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1378)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:99)
+		at org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource.getConnection(AbstractRoutingDataSource.java:194)
+		at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+		at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+		... 75 more
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+		... 91 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 94 more
+19-Sep-2022 15:25:34.257 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 部署 Web 应用程序 archive [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin.war] 时出错
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:757)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		... 9 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysConfigController': Unsatisfied dependency expressed through field 'configService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5221)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 10 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:415)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+		... 32 more
+	Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+		at com.sun.proxy.$Proxy117.selectList(Unknown Source)
+		at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+		at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+		at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+		at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+		at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+		at com.sun.proxy.$Proxy123.selectConfigList(Unknown Source)
+		at com.ruoyi.system.service.impl.SysConfigServiceImpl.init(SysConfigServiceImpl.java:40)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+		... 44 more
+	Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/admin/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+		... 59 more
+	Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+		at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+		at org.apache.ibatis.executor.ReuseExecutor.prepareStatement(ReuseExecutor.java:88)
+		at org.apache.ibatis.executor.ReuseExecutor.doQuery(ReuseExecutor.java:59)
+		at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+		at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+		... 65 more
+	Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+		at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:227)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1654)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1718)
+		at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:914)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1382)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1378)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:99)
+		at org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource.getConnection(AbstractRoutingDataSource.java:194)
+		at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+		at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+		... 75 more
+	Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+		at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+		at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+		at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+		at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+		... 91 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+		at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+		... 94 more
+19-Sep-2022 15:25:34.265 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin.war]的部署已在[524,925]ms内完成
+19-Sep-2022 15:25:34.269 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]
+19-Sep-2022 15:25:34.310 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]的部署已在[42]毫秒内完成
+19-Sep-2022 15:25:34.320 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]
+19-Sep-2022 15:25:38.595 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]的部署已在[4,275]毫秒内完成
+19-Sep-2022 15:25:38.610 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]
+19-Sep-2022 15:25:38.679 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]的部署已在[69]毫秒内完成
+19-Sep-2022 15:25:38.694 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]
+19-Sep-2022 15:25:38.763 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]的部署已在[69]毫秒内完成
+19-Sep-2022 15:25:38.779 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]
+19-Sep-2022 15:25:38.829 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]的部署已在[50]毫秒内完成
+19-Sep-2022 15:25:38.862 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Sep-2022 15:25:38.910 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 529647 ms
+19-Sep-2022 15:41:55.601 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+19-Sep-2022 15:42:07.717 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+19-Sep-2022 15:42:07.781 严重 [main] org.apache.catalina.startup.Catalina.stopServer 停止 Catalina 时出错
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:511)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+19-Sep-2022 16:16:59.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+19-Sep-2022 16:16:59.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+19-Sep-2022 16:16:59.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+19-Sep-2022 16:16:59.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+19-Sep-2022 16:16:59.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+19-Sep-2022 16:16:59.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-Sep-2022 16:16:59.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\javaide\jdk8\jre
+19-Sep-2022 16:16:59.430 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+19-Sep-2022 16:16:59.430 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-Sep-2022 16:16:59.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:16:59.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:16:59.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\conf\logging.properties
+19-Sep-2022 16:16:59.432 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2022 16:16:59.432 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Sep-2022 16:16:59.432 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Sep-2022 16:16:59.433 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Sep-2022 16:16:59.433 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:16:59.434 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:16:59.434 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\temp
+19-Sep-2022 16:16:59.435 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+19-Sep-2022 16:16:59.435 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+19-Sep-2022 16:16:59.436 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+19-Sep-2022 16:16:59.640 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+19-Sep-2022 16:17:11.099 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Sep-2022 16:17:11.133 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 12535 ms
+19-Sep-2022 16:17:11.181 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Sep-2022 16:17:11.182 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+19-Sep-2022 16:17:11.212 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin.war]
+19-Sep-2022 16:18:31.486 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 16:18:31.613 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 16:19:52.220 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+19-Sep-2022 16:20:45.558 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin.war]的部署已在[214,344]ms内完成
+19-Sep-2022 16:20:45.570 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]
+19-Sep-2022 16:20:45.639 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]的部署已在[69]毫秒内完成
+19-Sep-2022 16:20:45.654 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]
+19-Sep-2022 16:20:47.402 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]的部署已在[1,748]毫秒内完成
+19-Sep-2022 16:20:47.417 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]
+19-Sep-2022 16:20:47.510 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]的部署已在[93]毫秒内完成
+19-Sep-2022 16:20:47.534 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]
+19-Sep-2022 16:20:47.613 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]的部署已在[80]毫秒内完成
+19-Sep-2022 16:20:47.626 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]
+19-Sep-2022 16:20:47.674 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]的部署已在[48]毫秒内完成
+19-Sep-2022 16:20:47.702 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Sep-2022 16:20:47.731 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 216597 ms
+19-Sep-2022 16:22:43.486 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+19-Sep-2022 16:22:43.564 严重 [main] org.apache.catalina.startup.Catalina.stopServer 停止 Catalina 时出错
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:511)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+19-Sep-2022 16:24:11.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+19-Sep-2022 16:24:11.673 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+19-Sep-2022 16:24:11.673 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+19-Sep-2022 16:24:11.673 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+19-Sep-2022 16:24:11.673 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+19-Sep-2022 16:24:11.673 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-Sep-2022 16:24:11.674 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\javaide\jdk8\jre
+19-Sep-2022 16:24:11.674 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+19-Sep-2022 16:24:11.674 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-Sep-2022 16:24:11.674 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:24:11.674 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:24:11.674 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\conf\logging.properties
+19-Sep-2022 16:24:11.674 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2022 16:24:11.675 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Sep-2022 16:24:11.675 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Sep-2022 16:24:11.675 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Sep-2022 16:24:11.676 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:24:11.676 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:24:11.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\temp
+19-Sep-2022 16:24:11.677 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+19-Sep-2022 16:24:11.678 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+19-Sep-2022 16:24:11.679 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+19-Sep-2022 16:24:11.690 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+19-Sep-2022 16:24:23.137 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Sep-2022 16:24:23.175 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 12000 ms
+19-Sep-2022 16:24:23.234 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Sep-2022 16:24:23.234 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+19-Sep-2022 16:24:23.265 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]
+19-Sep-2022 16:24:25.146 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[1,403]毫秒。
+19-Sep-2022 16:24:25.189 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]的部署已在[1,924]毫秒内完成
+19-Sep-2022 16:24:25.201 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]
+19-Sep-2022 16:24:25.874 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]的部署已在[673]毫秒内完成
+19-Sep-2022 16:24:25.892 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]
+19-Sep-2022 16:24:25.972 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]的部署已在[80]毫秒内完成
+19-Sep-2022 16:24:25.996 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]
+19-Sep-2022 16:24:26.080 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]的部署已在[84]毫秒内完成
+19-Sep-2022 16:24:26.098 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]
+19-Sep-2022 16:24:26.178 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]的部署已在[81]毫秒内完成
+19-Sep-2022 16:24:26.201 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Sep-2022 16:24:26.285 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3108 ms
+19-Sep-2022 16:48:46.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+19-Sep-2022 16:48:46.237 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+19-Sep-2022 16:48:46.237 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+19-Sep-2022 16:48:46.237 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+19-Sep-2022 16:48:46.237 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+19-Sep-2022 16:48:46.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-Sep-2022 16:48:46.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\javaide\jdk8\jre
+19-Sep-2022 16:48:46.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+19-Sep-2022 16:48:46.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-Sep-2022 16:48:46.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:48:46.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:48:46.239 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\conf\logging.properties
+19-Sep-2022 16:48:46.239 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2022 16:48:46.239 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Sep-2022 16:48:46.239 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Sep-2022 16:48:46.240 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Sep-2022 16:48:46.240 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:48:46.241 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 16:48:46.241 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\temp
+19-Sep-2022 16:48:46.241 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+19-Sep-2022 16:48:46.242 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+19-Sep-2022 16:48:46.243 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+19-Sep-2022 16:48:46.253 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+19-Sep-2022 16:48:57.659 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Sep-2022 16:48:57.686 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11974 ms
+19-Sep-2022 16:48:57.727 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Sep-2022 16:48:57.727 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+19-Sep-2022 16:48:57.756 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin]
+19-Sep-2022 16:50:10.379 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 16:50:10.573 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 16:51:06.634 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+19-Sep-2022 16:51:58.371 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin]的部署已在[180,614]毫秒内完成
+19-Sep-2022 16:51:58.389 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]
+19-Sep-2022 16:51:58.449 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]的部署已在[59]毫秒内完成
+19-Sep-2022 16:51:58.466 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]
+19-Sep-2022 16:51:59.391 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]的部署已在[925]毫秒内完成
+19-Sep-2022 16:51:59.418 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]
+19-Sep-2022 16:51:59.526 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]的部署已在[108]毫秒内完成
+19-Sep-2022 16:51:59.549 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]
+19-Sep-2022 16:51:59.643 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]的部署已在[94]毫秒内完成
+19-Sep-2022 16:51:59.668 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]
+19-Sep-2022 16:51:59.734 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]的部署已在[65]毫秒内完成
+19-Sep-2022 16:51:59.764 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Sep-2022 16:51:59.800 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 182112 ms
+19-Sep-2022 17:24:32.262 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+19-Sep-2022 17:24:32.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+19-Sep-2022 17:24:32.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+19-Sep-2022 17:24:32.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+19-Sep-2022 17:24:32.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+19-Sep-2022 17:24:32.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-Sep-2022 17:24:32.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\javaide\jdk8\jre
+19-Sep-2022 17:24:32.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+19-Sep-2022 17:24:32.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-Sep-2022 17:24:32.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:24:32.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:24:32.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\conf\logging.properties
+19-Sep-2022 17:24:32.277 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2022 17:24:32.277 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Sep-2022 17:24:32.277 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Sep-2022 17:24:32.277 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Sep-2022 17:24:32.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:24:32.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:24:32.279 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\temp
+19-Sep-2022 17:24:32.279 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+19-Sep-2022 17:24:32.280 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+19-Sep-2022 17:24:32.281 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+19-Sep-2022 17:24:32.290 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+19-Sep-2022 17:24:43.716 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Sep-2022 17:24:43.742 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11948 ms
+19-Sep-2022 17:24:43.784 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Sep-2022 17:24:43.785 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+19-Sep-2022 17:24:43.805 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin]
+19-Sep-2022 17:24:45.220 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 17:24:45.246 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 17:24:57.451 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+19-Sep-2022 17:25:34.238 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\admin]的部署已在[50,431]毫秒内完成
+19-Sep-2022 17:25:34.254 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]
+19-Sep-2022 17:25:34.309 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]的部署已在[55]毫秒内完成
+19-Sep-2022 17:25:34.325 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]
+19-Sep-2022 17:25:35.098 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]的部署已在[773]毫秒内完成
+19-Sep-2022 17:25:35.115 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]
+19-Sep-2022 17:25:35.192 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]的部署已在[77]毫秒内完成
+19-Sep-2022 17:25:35.208 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]
+19-Sep-2022 17:25:35.286 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]的部署已在[78]毫秒内完成
+19-Sep-2022 17:25:35.303 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]
+19-Sep-2022 17:25:35.351 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]的部署已在[48]毫秒内完成
+19-Sep-2022 17:25:35.364 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Sep-2022 17:25:35.407 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 51663 ms
+19-Sep-2022 17:46:41.606 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+19-Sep-2022 17:46:41.618 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+19-Sep-2022 17:46:41.618 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+19-Sep-2022 17:46:41.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+19-Sep-2022 17:46:41.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+19-Sep-2022 17:46:41.620 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-Sep-2022 17:46:41.620 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\javaide\jdk8\jre
+19-Sep-2022 17:46:41.620 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+19-Sep-2022 17:46:41.620 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-Sep-2022 17:46:41.620 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:46:41.621 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:46:41.621 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\conf\logging.properties
+19-Sep-2022 17:46:41.621 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2022 17:46:41.621 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Sep-2022 17:46:41.621 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Sep-2022 17:46:41.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Sep-2022 17:46:41.622 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:46:41.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:46:41.623 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\temp
+19-Sep-2022 17:46:41.623 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+19-Sep-2022 17:46:41.624 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+19-Sep-2022 17:46:41.625 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+19-Sep-2022 17:46:41.635 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+19-Sep-2022 17:46:53.055 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Sep-2022 17:46:53.083 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11941 ms
+19-Sep-2022 17:46:53.127 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Sep-2022 17:46:53.127 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+19-Sep-2022 17:46:53.160 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\assets.war]
+19-Sep-2022 17:48:23.750 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 17:48:23.860 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 17:49:28.562 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+19-Sep-2022 17:50:00.298 严重 [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[/assets]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysConfigController': Unsatisfied dependency expressed through field 'configService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5221)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 10 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:415)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+		... 32 more
+	Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+		at com.sun.proxy.$Proxy117.selectList(Unknown Source)
+		at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+		at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+		at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+		at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+		at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+		at com.sun.proxy.$Proxy123.selectConfigList(Unknown Source)
+		at com.ruoyi.system.service.impl.SysConfigServiceImpl.init(SysConfigServiceImpl.java:40)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+		... 44 more
+	Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+		... 59 more
+	Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+		at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+		at org.apache.ibatis.executor.ReuseExecutor.prepareStatement(ReuseExecutor.java:88)
+		at org.apache.ibatis.executor.ReuseExecutor.doQuery(ReuseExecutor.java:59)
+		at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+		at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+		... 65 more
+	Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+		at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:227)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1654)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1718)
+		at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:914)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1382)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1378)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:99)
+		at org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource.getConnection(AbstractRoutingDataSource.java:194)
+		at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+		at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+		... 75 more
+19-Sep-2022 17:50:00.309 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 部署 Web 应用程序 archive [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\assets.war] 时出错
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:757)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[/assets]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		... 9 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysConfigController': Unsatisfied dependency expressed through field 'configService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:152)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:132)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:92)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5221)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 10 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sysConfigServiceImpl': Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:415)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+		... 32 more
+	Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+		at com.sun.proxy.$Proxy117.selectList(Unknown Source)
+		at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+		at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+		at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+		at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+		at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+		at com.sun.proxy.$Proxy123.selectConfigList(Unknown Source)
+		at com.ruoyi.system.service.impl.SysConfigServiceImpl.init(SysConfigServiceImpl.java:40)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+		at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+		... 44 more
+	Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in URL [jar:file:/D:/tb/2022新项目/毕设项目/java资产管理系统/apache-tomcat-8.5.82/webapps/assets/WEB-INF/lib/system-3.4.0.jar!/mapper/system/SysConfigMapper.xml]
+### The error may involve com.ruoyi.system.mapper.SysConfigMapper.selectConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+		... 59 more
+	Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+		at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+		at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+		at org.apache.ibatis.executor.ReuseExecutor.prepareStatement(ReuseExecutor.java:88)
+		at org.apache.ibatis.executor.ReuseExecutor.doQuery(ReuseExecutor.java:59)
+		at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+		at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+		at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+		at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+		... 65 more
+	Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+		at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+		at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+		at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+		at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:227)
+		at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1654)
+		at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1718)
+		at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:914)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1382)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1378)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:99)
+		at org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource.getConnection(AbstractRoutingDataSource.java:194)
+		at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+		at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+		at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+		... 75 more
+19-Sep-2022 17:50:00.321 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\assets.war]的部署已在[187,159]ms内完成
+19-Sep-2022 17:50:00.325 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]
+19-Sep-2022 17:50:00.400 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]的部署已在[75]毫秒内完成
+19-Sep-2022 17:50:00.418 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]
+19-Sep-2022 17:50:01.405 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]的部署已在[987]毫秒内完成
+19-Sep-2022 17:50:01.425 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]
+19-Sep-2022 17:50:01.520 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]的部署已在[96]毫秒内完成
+19-Sep-2022 17:50:01.541 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]
+19-Sep-2022 17:50:01.632 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]的部署已在[91]毫秒内完成
+19-Sep-2022 17:50:01.653 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]
+19-Sep-2022 17:50:01.732 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]的部署已在[80]毫秒内完成
+19-Sep-2022 17:50:01.773 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Sep-2022 17:50:01.834 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 188751 ms
+19-Sep-2022 17:51:21.928 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/assets]
+19-Sep-2022 17:51:21.948 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [assets] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+19-Sep-2022 17:51:21.991 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [assets] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+19-Sep-2022 17:51:21.993 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[assets]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+19-Sep-2022 17:51:22.982 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\assets.war]
+19-Sep-2022 17:53:04.125 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.82
+19-Sep-2022 17:53:04.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Aug 8 2022 21:26:07 UTC
+19-Sep-2022 17:53:04.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.82.0
+19-Sep-2022 17:53:04.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+19-Sep-2022 17:53:04.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+19-Sep-2022 17:53:04.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-Sep-2022 17:53:04.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\javaide\jdk8\jre
+19-Sep-2022 17:53:04.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_181-b13
+19-Sep-2022 17:53:04.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-Sep-2022 17:53:04.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:53:04.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:53:04.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\conf\logging.properties
+19-Sep-2022 17:53:04.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Sep-2022 17:53:04.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Sep-2022 17:53:04.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Sep-2022 17:53:04.141 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Sep-2022 17:53:04.142 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:53:04.142 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82
+19-Sep-2022 17:53:04.143 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\temp
+19-Sep-2022 17:53:04.143 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+19-Sep-2022 17:53:04.144 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+19-Sep-2022 17:53:04.144 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+19-Sep-2022 17:53:04.156 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+19-Sep-2022 17:53:15.589 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Sep-2022 17:53:15.613 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11987 ms
+19-Sep-2022 17:53:15.654 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Sep-2022 17:53:15.655 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.82]
+19-Sep-2022 17:53:15.681 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\assets.war]
+19-Sep-2022 17:54:48.549 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 17:54:48.691 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Sep-2022 17:56:12.513 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+19-Sep-2022 17:57:10.816 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\assets.war]的部署已在[235,133]ms内完成
+19-Sep-2022 17:57:10.829 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]
+19-Sep-2022 17:57:10.910 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\docs]的部署已在[81]毫秒内完成
+19-Sep-2022 17:57:10.930 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]
+19-Sep-2022 17:57:12.084 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\examples]的部署已在[1,154]毫秒内完成
+19-Sep-2022 17:57:12.111 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]
+19-Sep-2022 17:57:12.231 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\host-manager]的部署已在[120]毫秒内完成
+19-Sep-2022 17:57:12.259 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]
+19-Sep-2022 17:57:12.369 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\manager]的部署已在[111]毫秒内完成
+19-Sep-2022 17:57:12.400 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]
+19-Sep-2022 17:57:12.479 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tb\2022新项目\毕设项目\java资产管理系统\apache-tomcat-8.5.82\webapps\ROOT]的部署已在[80]毫秒内完成
+19-Sep-2022 17:57:12.516 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Sep-2022 17:57:12.555 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 236941 ms
+19-Sep-2022 18:02:31.265 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+19-Sep-2022 18:02:31.323 严重 [main] org.apache.catalina.startup.Catalina.stopServer 停止 Catalina 时出错
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:511)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+19-Sep-2022 18:02:38.345 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+19-Sep-2022 18:02:38.406 严重 [main] org.apache.catalina.startup.Catalina.stopServer 停止 Catalina 时出错
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:511)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+19-Sep-2022 18:02:43.096 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+19-Sep-2022 18:02:43.110 严重 [main] org.apache.catalina.startup.Catalina.stopServer 停止 Catalina 时出错
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:511)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
